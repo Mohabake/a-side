@@ -2,13 +2,13 @@
 <html >
 <head>
 
-  <title>sign in and sign up form</title>
+  <title>sign up page</title>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
       <link rel="stylesheet" href="style.css">
 
-   <script src="index0.js"></script>
+   <script src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -33,12 +33,12 @@
                     <div class="form-group has-success">
                       <label for="text">Email address: </label>
                       <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      <br><small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small></br>
                     </div>
                     <!-- AGE -->
                     <div class="form-group has-success">
-                      <label for="text">Age: </label>
-                      <input type="number" class="form-control" id="ageInput" placeholder="Enter age">
+                      <label for="text">Phone Number: </label>
+                      <input type="number" class="form-control" id="numInput" placeholder="Enter Phone Number">
                     </div>
                     <!-- BUTTON -->
                      <button type="submit" class="btn btn-success" id="addUser">Submit</button>
@@ -62,7 +62,7 @@
           };
           firebase.initializeApp(config);
         </script>
- <script src="scripts.js"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="js/scripts.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>
