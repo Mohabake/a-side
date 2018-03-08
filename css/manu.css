@@ -17,6 +17,7 @@ h1 {
   font-family: "Raleway", sans-serif;
   line-height: 120%;
   padding: 5% 0;
+  color: #f0f0f0;
 }
 h2 {
   text-decoration: underline;
@@ -57,7 +58,7 @@ a:hover {
   text-decoration: none;
 }
 header {
-  background: #f0f0f0;
+  background: #230d0d;
   width: 100%;
   height: 200px;
   top: 0;
@@ -179,18 +180,6 @@ background: url("../img/background.jpg");
 background-repeat: no-repeat;
 }
 #nice-guy-showing {
-  display: none;
-}
-#big-shot-showing {
-  display: none;
-}
-#older-guy-showing {
-  display: none;
-}
-#man-man-showing {
-  display: none;
-}
-#fun-social-showing {
   display: none;
 }
 .clickable{
