@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body  {
+  background: #000;
+  font: 14px/20px Arial;
+  color: #555;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 200%;
+  font-family: "Raleway", sans-serif;
+  line-height: 120%;
+  padding: 5% 0;
+}
+h2 {
+  text-decoration: underline;
+  line-height: 280%;
+  padding-left: 2%;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+}
+h3 {
+  line-height: 110%;
+  padding: 5% 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+p {
+  padding: 1%;
+  font-family: "Oswald",sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  color: #fff;
+}
+img {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+a  {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+section h1 {
+  color: #fff;
+}
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+header {
+  background: #f0f0f0;
+  width: 100%;
+  height: 200px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  opacity: 0.90;
+}
+#logo {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 180px;
+  background: url("../img/logo1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+nav {
+  float: right;
+  padding: 35px 20px 20px 0;
+}
+#menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url("http://www.w3newbie.com/wp-content/uploads/icon.png")center;
+}
+a:hover#menu-icon {
+  border-radius: 4px 4px 0 0;
+}
+ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+.current {
+  color: green;
+  border-radius: 9px;
+  font-family: "Oswald", sans-serif;
+  font-size: 135%;
+  border: solid green 3px;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+section {
+  width: 29%;
+  float: left;
+  margin: 2% 2%;
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+article {
+  float: left;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  padding: 4%;
+}
+aside {
+  float: right;
+  margin: 0 auto;
+  width: 35%;
+  height: auto;
+  padding: 3%;
+  list-style: none;
+}
+aside h2 {
+  text-decoration: none;
+}
+ul .side {
+  padding-left: 3%;
+  opacity: 0.90;
+}
+footer p, footer h3 {
+  color: #fff;
+}
+footer p a {
+  color: #FFF;
+  text-decoration: none;
+}
+.social li {
+  display: inline;
+}
+ul .social li img {
+  height: 50px;
+}
+footer .second {
+  border-top: 1px solid #4D4E50;
+  background-color: #333333;
+  max-height: 50px;
+  text-align: center;
+  opacity: 0.95;
+}
+footer {
+  background: #333333;
+  width: 100%;
+  overflow: hidden;
+}
+.btn {
+  border-radius: 9px;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  font-size: 135%;
+  border: solid #fff 3px;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.btn:hover {
+  color: green;
+  border: solid green 3px;
+  text-decoration: none;
+}
+.banter {
+background: url("../img/background.jpg");
+background-repeat: no-repeat;
+}
+#nice-guy-showing {
+  display: none;
+}
+#big-shot-showing {
+  display: none;
+}
+#older-guy-showing {
+  display: none;
+}
+#man-man-showing {
+  display: none;
+}
+#fun-social-showing {
+  display: none;
+}
+.clickable{
+  cursor: pointer;
+  color: #0088cc;
+    text-decoration: none;
+}
+.blueberry { margin: 0 auto; }
+.blueberry .slides {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.blueberry .slides li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.blueberry .slides li img {
+	display: block;
+	width: 100%;
+	max-width: none;
+}
+.blueberry .slides li.active { display: block; position: relative; }
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+	height: 40px;
+	text-align: center;
+}
+.blueberry .pager li { display: inline-block; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 4px;
+	width: 4px;
+}
+.blueberry .pager li a {
+	padding: 18px 8px;
+-webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #c0c0c0;
+	text-indent: -9999px;
+-webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.blueberry .pager li.active a span {
+  background: #404040;
+}
+/*--------------------------Media--------------*/
+@media screen and (max-width: 740px) {
+  body  {
+    position: absolute;
+  }
+}
+@media screen and (max-width: 740px) {
+  header {
+    position: absolute;
+  }
+  #menu-icon {
+    display: inline-block;
+  }
+  nav ul, nav:active ul {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background: #405580;
+    border: 1px solid #FFF;
+    right: 20px;
+    top: 60px;
+    width: 50%;
+    border-radius: 2px 0 2px 2px;
+  }
+  nav li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
+  nav:hover ul {
+    display: block;
+  }
+  section {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  article {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  aside {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
