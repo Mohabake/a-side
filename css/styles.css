@@ -1,0 +1,109 @@
+@import url('https://fonts.googleleaps.com/css?family=Raleway');
+@import url('https://fonts.googleleaps.com/css?family=Oswald');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-image: url(../images/crop.jpg);
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.content {
+  max-width: 100%
+  margin: 0;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 25%;
+}
+.content h1 {
+  font-family: 'Raleway' 'san-serif';
+  color: #000000;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 425%;
+
+}
+.btn {
+  border-radius: 9px;
+  font-family: sans-serif;
+  color: #036A81;
+  font-size: 18%;
+  padding: 10px 20px;
+  border: solid white;
+  text-transform: uppercase;
+  text-decoration: none
+}
+.btn:hover {
+  color: #fff;
+  border: solid #fff 3px;
+
+body {
+  font-family: sans-serif;
+  background-image: -moz-linear-gradient(30deg, rgba(66, 181, 213, 0.5) 0%, rgba(58, 210, 11, 0.5) 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(66, 181, 213, 0.5)), color-stop(100%, rgba(58, 210, 11, 0.5)));
+  background: -webkit-linear-gradient(30deg, rgba(66, 181, 213, 0.5) 0%, rgba(58, 210, 11, 0.5) 100%);
+  background: -o-linear-gradient(30deg, rgba(66, 181, 213, 0.5) 0%, rgba(58, 210, 11, 0.5) 100%);
+  background: -ms-linear-gradient(30deg, rgba(66, 181, 213, 0.5) 0%, rgba(58, 210, 11, 0.5) 100%);
+  background: linear-gradient(30deg, rgba(66, 181, 213, 0.5) 0%, rgba(58, 210, 11, 0.5) 100%);
+}
+
+h1 {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.panel {
+  background: #fafafa;
+  padding: 1em;
+  width: 92.5%;
+  margin: auto;
+  max-width: 30em;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1em;
+  margin-top: 0.5em;
+  padding: 0.5em;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::after {
+  width: 100%;
+  height: 10px;
+  background: red;
+}
+
+.nav-list {
+  width: 92.5%;
+  max-width: 30em;
+  text-align: center;
+  margin: auto;
+}
+.nav-list li {
+  list-style: none;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0.7em;
+  margin: 0 0.1em;
+}
+.nav-list li.active {
+  background-color: rgba(255, 255, 255, 0.95);
+}
