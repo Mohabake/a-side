@@ -8,10 +8,10 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 # Installation
-Go to github account https://github.com/Mohabake/a-side and clone the repository.
+Go to github account https://github.com/mohamed6718/a-side and clone the repository.
 
 # Deployment
-Site deployed at https://mohabake.github.io/a-side/
+Site deployed at https://mohamed6718.github.io/a-side/
 
 # Built With
 HTML
